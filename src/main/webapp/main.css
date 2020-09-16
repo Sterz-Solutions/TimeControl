@@ -1,0 +1,50 @@
+body {
+    padding: 1em;
+    margin: 1em;
+    background: #f9f9f9;
+}
+/*-- Navigationsleiste --*/
+.navbar {
+    background: #005ea9;
+}
+.nav-link,
+.navbar-brand {
+    color: white;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+    color: white;
+    text-decoration: underline;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.table-responsive{
+
+}
+
+.table-hover{
+    background-color: darkslategray;
+}
+
+#deleteCustomer{
+    alignment: center;
+}
+
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#customerTable{
+    flex-grow: 8;
+}
+
+#projectTable{
+    flex-grow: 8;
+}
